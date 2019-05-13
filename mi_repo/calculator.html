@@ -21,6 +21,11 @@ function sin() {
  num.value = Math.sin(num.value);
 }
 
+function inverse() {
+ var num = document.getElementById("n1");
+ num.value = Math.pow(num.value, -1);
+}
+
 </script>
 </head>
 <body>
@@ -38,6 +43,9 @@ function sin() {
  </p>
  <p>
  <button onclick="sin()"> sine </button>
+ </p>
+  <p>
+ <button onclick="inverse()"> 1/x </button>
  </p>
 </body>
 </html>
